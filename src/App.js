@@ -1,11 +1,12 @@
 import React from 'react'
-
 import './global.css'
+
+import Register from './components/Register'
 
 function App() {
   return (
     <>
-      <h1>Cadastrar Pessoa</h1>
+      <Register />
     </>
   )
 }
